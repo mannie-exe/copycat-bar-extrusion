@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="copycat_bar_extrusion"
+version="${version}"
+displayName="Copycat Bar Extrusion"
+authors="mannie-exe"
+description='''Extrudes supported bar textures in Create copycat panels. Client-side; does not change blocks or saved data.'''
+[[mixins]]
+config="copycat_bar_extrusion.mixins.json"
+[[dependencies.copycat_bar_extrusion]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="CLIENT"
+[[dependencies.copycat_bar_extrusion]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.263,21.2)"
+side="CLIENT"
+[[dependencies.copycat_bar_extrusion]]
+modId="create"
+type="required"
+versionRange="[6.0.10]"
+side="CLIENT"

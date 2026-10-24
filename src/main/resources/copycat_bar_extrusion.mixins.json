@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "design.inherent.copycatbars.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["CopycatBarsMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
